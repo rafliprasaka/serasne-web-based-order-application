@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --bg-color: #cdcdcd;
+    --bg-darkGrey: #333333;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.login-page {
+    overflow: hidden;
+}
+
+.login-shell {
+    min-height: 100dvh;
+    padding: 1rem;
+}
+
+.bg-grey {
+    background-color: var(--bg-color);
+}
+
+.bg-dark-grey {
+    background-color: var(--bg-darkGrey);
+}
+
+.full-height {
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+}
+.main-screen {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 500px; /* Adjust max width as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-width{
+    width: 100%;
+    max-width: 500px; /* Adjust max width as needed */
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    bottom:0;
+}
+
+.sidebar {
+    min-height: 100vh;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    padding:10px 0px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color:#333;
+}
+
+.navigation li a > i {
+    padding-right:20px;
+    width:30px;
+}
+
+.product-title{
+    font-size: 12px;
+}
+
+.product-price{
+    font-size:12px;
+}
